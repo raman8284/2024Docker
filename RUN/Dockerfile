@@ -1,3 +1,4 @@
 FROM alpine:latest
-RUN apt-get update 
+RUN apt update
+RUN apt upgrade -y
 RUN apt install nginx -y
