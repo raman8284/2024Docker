@@ -1,4 +1,4 @@
-FROM alpine:latest
-LABEL AUTHOR= "RAM"
-      COURSE= "DEVOPS"
-      DURATION= "25Hrs"
+FROM almalinux
+LABEL AUTHOR="SIVAKUMAR" \
+          COURSE="DOCKER" \
+          DURATION="25 HRS"
