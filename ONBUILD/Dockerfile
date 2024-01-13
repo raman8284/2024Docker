@@ -1,3 +1,3 @@
 FROM alpine
 RUN apk add nginx
-ONBUILD ADD simple.txt
+ONBUILD ADD simple.txt /tmp/
