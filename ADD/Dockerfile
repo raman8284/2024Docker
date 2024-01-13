@@ -1,2 +1,3 @@
 From almalinux:latest
 ADD https://filesamples.com/samples/document/txt/sample3.txt /tmp
+ADD c:\Users\DELL\Downloads\dockerfiles-SIVA-master.zip /tmp
