@@ -1,4 +1,4 @@
-FROM alamalinux
-RUN mkdir /myvol/greeting
-RUN echo "hi this is inside container to create directory"
+FROM ubuntu
+RUN mkdir /myvol
+RUN echo "hello world" > /myvol/greeting
 VOLUME /myvol
